@@ -3,6 +3,7 @@ from Crypto.Cipher import PKCS1_OAEP
 
 
 def call_this():
+    # generating keys for client and server
     new_key1 = RSA.generate(1024)
     new_key2 = RSA.generate(1024)
 
